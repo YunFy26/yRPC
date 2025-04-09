@@ -1,7 +1,7 @@
-package org.example.remoting.transport;
+package org.example.remote.transport;
 
 import org.example.spi.SPI;
-import org.example.remoting.dto.RpcRequest;
+import org.example.remote.dto.RpcRequest;
 
 @SPI
 public interface RpcRequestTransport {

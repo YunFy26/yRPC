@@ -1,6 +1,6 @@
-package org.example.remoting.transport.client;
+package org.example.remote.transport.client;
 
-import org.example.remoting.dto.RpcResponse;
+import org.example.remote.dto.RpcResponse;
 
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;

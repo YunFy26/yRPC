@@ -1,4 +1,4 @@
-package org.example.remoting.transport.client;
+package org.example.remote.transport.client;
 
 
 import io.netty.bootstrap.Bootstrap;
@@ -15,14 +15,14 @@ import org.example.enums.SerializationTypeEnum;
 import org.example.enums.ServiceDiscoverEnum;
 import org.example.factory.SingletonFactory;
 import org.example.register.ServiceDiscover;
-import org.example.remoting.constants.RpcConstants;
-import org.example.remoting.dto.RpcMessage;
-import org.example.remoting.dto.RpcRequest;
-import org.example.remoting.dto.RpcResponse;
-import org.example.remoting.transport.RpcRequestTransport;
+import org.example.remote.constants.RpcConstants;
+import org.example.remote.dto.RpcMessage;
+import org.example.remote.dto.RpcRequest;
+import org.example.remote.dto.RpcResponse;
+import org.example.remote.transport.RpcRequestTransport;
 
-import org.example.remoting.transport.codec.RpcMessageEncoder;
-import org.example.remoting.transport.codec.RpcMessageDecoder;
+import org.example.remote.transport.codec.RpcMessageEncoder;
+import org.example.remote.transport.codec.RpcMessageDecoder;
 import org.example.spi.ExtensionLoader;
 
 import java.net.InetSocketAddress;

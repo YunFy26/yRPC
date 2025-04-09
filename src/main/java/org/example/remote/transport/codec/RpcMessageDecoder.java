@@ -1,4 +1,4 @@
-package org.example.remoting.transport.codec;
+package org.example.remote.transport.codec;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
@@ -6,10 +6,10 @@ import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 import org.example.compress.Compress;
 import org.example.enums.CompressTypeEnum;
 import org.example.enums.SerializationTypeEnum;
-import org.example.remoting.constants.RpcConstants;
-import org.example.remoting.dto.RpcMessage;
-import org.example.remoting.dto.RpcRequest;
-import org.example.remoting.dto.RpcResponse;
+import org.example.remote.constants.RpcConstants;
+import org.example.remote.dto.RpcMessage;
+import org.example.remote.dto.RpcRequest;
+import org.example.remote.dto.RpcResponse;
 import org.example.serialize.Serializer;
 import org.example.spi.ExtensionLoader;
 

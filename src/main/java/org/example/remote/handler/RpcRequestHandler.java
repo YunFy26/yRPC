@@ -1,10 +1,10 @@
-package org.example.remoting.handler;
+package org.example.remote.handler;
 
 import org.example.exception.RpcException;
 import org.example.factory.SingletonFactory;
 import org.example.provider.ServiceProvider;
 import org.example.provider.impl.ZkServiceProvider;
-import org.example.remoting.dto.RpcRequest;
+import org.example.remote.dto.RpcRequest;
 
 import java.lang.reflect.Method;
 

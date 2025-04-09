@@ -1,4 +1,4 @@
-package org.example.remoting.transport.client;
+package org.example.remote.transport.client;
 
 import io.netty.channel.*;
 import io.netty.handler.timeout.IdleState;
@@ -6,9 +6,9 @@ import io.netty.handler.timeout.IdleStateEvent;
 import org.example.enums.CompressTypeEnum;
 import org.example.enums.SerializationTypeEnum;
 import org.example.factory.SingletonFactory;
-import org.example.remoting.constants.RpcConstants;
-import org.example.remoting.dto.RpcMessage;
-import org.example.remoting.dto.RpcResponse;
+import org.example.remote.constants.RpcConstants;
+import org.example.remote.dto.RpcMessage;
+import org.example.remote.dto.RpcResponse;
 
 import java.net.InetSocketAddress;
 

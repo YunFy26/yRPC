@@ -1,16 +1,13 @@
-package org.example.remoting.transport.codec;
+package org.example.remote.transport.codec;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
-import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 import io.netty.handler.codec.MessageToByteEncoder;
-import lombok.extern.slf4j.Slf4j;
 import org.example.compress.Compress;
 import org.example.enums.SerializationTypeEnum;
-import org.example.remoting.constants.RpcConstants;
-import org.example.remoting.dto.RpcMessage;
+import org.example.remote.constants.RpcConstants;
+import org.example.remote.dto.RpcMessage;
 
-import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicInteger;
 import org.example.enums.CompressTypeEnum;
 import org.example.serialize.Serializer;

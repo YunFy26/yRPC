@@ -1,4 +1,4 @@
-package org.example.remoting.constants;
+package org.example.remote.constants;
 
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
