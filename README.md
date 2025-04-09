@@ -1,0 +1,1 @@
+A lightweight RPC framework implemented with Netty for network communication and ZooKeeper for service discovery.
